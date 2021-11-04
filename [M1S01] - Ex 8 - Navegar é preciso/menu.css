@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.menu {
+    height: 60px;
+    background-color: #eed1d1;
+    font-family: Tahoma;
+    box-shadow: 0px 0px 100px 5px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+
+.menu ul li {
+    display: inline-block;
+    width: 1200px;
+    padding: 10px;
+    position: fixed;
+    text-align: right;
+}
+
+.menu a {
+    padding: 0px;
+    display: block;
+    text-decoration: none;
+    color: brown;
+    text-align: right;
+}
+
+.menu a:hover {
+    transition: all 0.4s ease;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    background-image: url(../EX.1]8/logo.png.png);
+    position: fixed;
+}
+.rodape {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

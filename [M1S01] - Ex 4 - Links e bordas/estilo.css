@@ -1,0 +1,36 @@
+h1 {
+    color:brown;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    background-image:url(backH1.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: yellow;
+}
+
+div #imagens1 {
+flex-direction: row;
+display: inline-block;
+}
+
+p {
+    font-size: 14px;
+}
+button {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 20px;
+}
+input {
+    width: 20px;
+    height: 15px; 
+}
